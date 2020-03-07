@@ -1,0 +1,43 @@
+.title-listBooks h2 {
+    color: rgb(243, 103, 10);
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#listBooks {
+    height: 25rem;
+    width: 90%;
+    border-radius: 10px;
+    outline: none;
+    padding:10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#listBooks:hover {
+    box-shadow: 5px 2px 2px rgb(211, 210, 210);
+}
+
+
+@media (max-width: 999px){
+    .container {
+        width: 90%;
+        height: 20rem;
+    }
+    .title-listBooks h2 {
+        color: rgb(243, 103, 10);
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: -40px;
+    }
+    #wrap-cards-listBooks{
+        margin-top: -60px;
+    }
+    #listBooks {
+        height: 20rem;
+        width: 100%;
+        border-radius: 10px;
+        margin-bottom: 30px;
+    }
+}
